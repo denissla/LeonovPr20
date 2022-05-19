@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeonovPr20.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="Get" FontSize="50" HorizontalTextAlignment="Center" TextColor="Black"/>
+        <Button Text="Создать запрос" Clicked="Button_Clicked" BackgroundColor="LightYellow" BorderWidth="2" BorderColor="Orange" TextColor="Black" Margin="50"/>
+        <Label x:Name="Label1" FontSize="Medium" TextColor="Black" Margin="50"/>
+        <Button Clicked="Button_Clicked_1" Text="Put" TextColor="Black" BorderWidth="2" BorderColor="LightYellow" BackgroundColor="OrangeRed"/>
+        <Button Clicked="Button_Clicked_2" Text="Post" TextColor="Black" BorderWidth="2" BorderColor="LightYellow" BackgroundColor="OrangeRed"/>
+    </StackLayout>
+
+</ContentPage>
